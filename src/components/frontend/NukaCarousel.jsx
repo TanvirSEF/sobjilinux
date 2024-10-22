@@ -13,11 +13,12 @@ export default function NukaCarousel() {
       autoplay={true}
       autoplayInterval={3000}
       showArrows
+      wrapMode="wrap"
     >
-      <Image src={banner1} alt="" />
-      <Image src={banner2} alt="" />
-      <Image src={banner3} alt="" />
-      <Image src={banner4} alt="" />
+      <Image src={banner1} alt="" className="w-full" />
+      <Image src={banner2} alt="" className="w-full" />
+      <Image src={banner3} alt="" className="w-full" />
+      <Image src={banner4} alt="" className="w-full" />
     </Carousel>
   );
 }
